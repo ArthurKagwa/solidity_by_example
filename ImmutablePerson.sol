@@ -6,7 +6,7 @@ contract ImmutablePerson {
     constructor(string _name) {
         name = _name;
     }
-    ImmutablePerson public arthur = ImmutablePerson("arthur");
+    ImmutablePerson public arthur =new ImmutablePerson("arthur");
 }
 
 // values of immutable variables cannot be changed after object instactiation through the constructor.
